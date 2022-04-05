@@ -1,6 +1,6 @@
 package com.codedream.mybatis;
 
-import com.codedream.auto.properties.PropertySource;
+import com.codedream.auto.properties.CodeDreamPropertySource;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  *
  * @author mo
  */
-@PropertySource(value = "classpath:/codedream-mybatis.yml")
+@CodeDreamPropertySource(value = "classpath:/codedream-mybatis.yml")
 @Configuration(proxyBeanMethods = false)
 public class MybatisConfig {
 
