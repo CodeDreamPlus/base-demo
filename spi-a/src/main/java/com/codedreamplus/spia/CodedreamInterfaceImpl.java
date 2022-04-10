@@ -1,7 +1,7 @@
-package com.codedream.spia;
+package com.codedreamplus.spia;
 
-import com.codedream.auto.service.AutoService;
-import com.codedream.spiinterface.CodedreamInterface;
+import com.codedreamplus.auto.service.AutoService;
+import com.codedreamplus.spiinterface.CodedreamInterface;
 import org.springframework.core.io.support.PropertiesLoaderUtils;
 
 import java.util.Properties;

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>codedream-base-demo</artifactId>
-        <groupId>com.codedream</groupId>
+        <groupId>com.codedreamplus</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,16 +12,16 @@
     <artifactId>spi-b</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.codedream</groupId>
+            <groupId>com.codedreamplus</groupId>
             <artifactId>spi-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.codedream</groupId>
-            <artifactId>codedream-base</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>com.codedreamplus</groupId>
+            <artifactId>codedreamplus-base</artifactId>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 

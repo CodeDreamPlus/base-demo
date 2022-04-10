@@ -10,7 +10,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.codedream</groupId>
+    <groupId>com.codedreamplus</groupId>
     <artifactId>start</artifactId>
 
     <dependencies>
@@ -26,19 +26,19 @@
         </dependency>
 
         <dependency>
-            <groupId>com.codedream</groupId>
+            <groupId>com.codedreamplus</groupId>
             <artifactId>spi-a</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.codedream</groupId>
+            <groupId>com.codedreamplus</groupId>
             <artifactId>spi-b</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.codedream</groupId>
+            <groupId>com.codedreamplus</groupId>
             <artifactId>mybatis</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

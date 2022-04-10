@@ -1,4 +1,4 @@
-package com.codedream.spiinterface.util;
+package com.codedreamplus.spiinterface.util;
 
 import org.springframework.core.env.*;
 
@@ -15,6 +15,7 @@ public class ProfileUtil {
 
     /**
      * 获取当前环境
+     *
      * @param args
      * @return
      */

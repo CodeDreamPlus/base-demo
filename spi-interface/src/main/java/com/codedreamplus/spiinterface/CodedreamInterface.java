@@ -1,6 +1,4 @@
-package com.codedream.spiinterface;
-
-import java.io.IOException;
+package com.codedreamplus.spiinterface;
 
 /**
  * <p>Description: [spi接口]</p >

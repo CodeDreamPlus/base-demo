@@ -1,7 +1,7 @@
-package com.codedream.spib;
+package com.codedreamplus.spib;
 
-import com.codedream.auto.service.AutoService;
-import com.codedream.spiinterface.CodedreamInterface;
+import com.codedreamplus.auto.service.AutoService;
+import com.codedreamplus.spiinterface.CodedreamInterface;
 
 /**
  * <p>Description: [spi接口实现类]</p >

@@ -1,7 +1,7 @@
-package com.codedream.autodemo;
+package com.codedreamplus.autodemo;
 
-import com.codedream.mybatis.MybatisConfig;
-import com.codedream.spiinterface.CodedreamInterface;
+import com.codedreamplus.mybatis.MybatisConfig;
+import com.codedreamplus.spiinterface.CodedreamInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.ServiceLoader;
 
 @SpringBootApplication
-public class CodeDreamAutoDemoApplication {
+public class AutoDemoApplication {
     @Autowired
     private MybatisConfig mybatisConfig;
 
@@ -21,7 +21,7 @@ public class CodeDreamAutoDemoApplication {
         ServiceLoader.load(CodedreamInterface.class).forEach(codedreamInterfaceImplList::add);
         //执行
         codedreamInterfaceImplList.stream().forEach(impl -> impl.start());
-        SpringApplication.run(CodeDreamAutoDemoApplication.class, args);
+        SpringApplication.run(AutoDemoApplication.class, args);
     }
 
 }

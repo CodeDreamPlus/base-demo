@@ -2,7 +2,7 @@
 mybatis-plus:
   mapper-locations: classpath:com/codedream/**/mapper/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: com.codedream.**.entity
+  typeAliasesPackage: com.codedreamplus.**.entity
   global-config:
     # 关闭MP3.0自带的banner
     banner: false
